@@ -26,7 +26,7 @@ export const ContactForm = () => {
     setSubmitStatus("idle");
 
     try {
-      const response = await fetch('https://ms-email-git-main-ssanmaps-projects.vercel.app/send-email', {
+      const response = await fetch('https://api.solveria.cl/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
