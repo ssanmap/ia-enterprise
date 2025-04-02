@@ -5,6 +5,7 @@ import { ContactForm } from "../components/ContactForm";
 import { Footer } from "../components/Footer";
 import { Services } from "../components/Services";
 import { About } from "../components/About";
+import { WhatsAppButton } from "../components/WhatsAppButton";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
         <ContactForm />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
